@@ -95,7 +95,7 @@ AddMECgNBInterface (Ptr<Node> gnb, Ptr<Node> mec, PointToPointHelper p2pmgb, Ipv
   
 }
 static void
-ModifyPacketData_UE (Ptr<Node> node, V2PUdpClientHelper udpclient, Ptr <Application> app, uint8_t type)
+ModifyPacketData_UE (Ptr<Node> node, UdpClientHelper udpclient, Ptr <Application> app, uint8_t type)
 {
 std::cout<<"modify call"<<std::endl;
    
